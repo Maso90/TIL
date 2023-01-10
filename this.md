@@ -19,7 +19,8 @@
     var obj = {
         value: 5
     };
-    var boundFn = fn.bind(obj);boundFn(); // -> { value: 5 }
+    var boundFn = fn.bind(obj);
+    boundFn(); // -> { value: 5 }
     fn.call(obj);  // -> { value: 5 }
     fn.apply(obj); // -> { value: 5 }
     ```
@@ -37,7 +38,8 @@
     ```javascript
     function fn() {
         console.log(this);
-    }// If called in browser:
+    }
+    // If called in browser:
     fn(); // -> Window {stop: ƒ, open: ƒ, alert: ƒ, ...}
     ```
 5. 위의 규칙이 여러 개 적용되는 경우 더 높은 규칙이 이기고 이 값을 설정합니다.
