@@ -6,7 +6,8 @@
         console.log(this);
         this.value = 10;
         console.log(this);
-    }new ConstructorExample();
+    }
+    new ConstructorExample();
     // -> {}
     // -> { value: 10 }
     ```
