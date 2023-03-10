@@ -1,0 +1,1 @@
+[(Toss tech)TypeScript 타입 시스템 뜯어보기: 타입 호환성](https://toss.tech/article/typescript-type-compatibility)
